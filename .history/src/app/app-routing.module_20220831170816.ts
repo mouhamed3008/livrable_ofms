@@ -11,10 +11,6 @@ const routes: Routes = [
     path: 'playlist',
     loadChildren: () => import('./playlist/playlist.module').then( m => m.PlaylistPageModule)
   },
-  {
-    path: 'card-item',
-    loadChildren: () => import('./card-item/card-item.module').then( m => m.CardItemPageModule)
-  },
 
 ];
 
